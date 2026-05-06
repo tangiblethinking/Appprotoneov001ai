@@ -8,7 +8,7 @@ export const resumeHTML = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christopher Kenreigh – Associate Director, UX for AI Agents</title>
+  <title>Christopher Kenreigh – Lead Product Designer</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <style>
@@ -269,6 +269,7 @@ export const resumeHTML = `<!DOCTYPE html>
         row-gap: 4px;
       }
 
+      /* Stack sidebar above or below on mobile */
       .body {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
@@ -351,7 +352,7 @@ export const resumeHTML = `<!DOCTYPE html>
   <!-- HEADER -->
   <header>
     <h1>Christopher Kenreigh</h1>
-    <div class="title-line">Agentic UX &amp; Conversational AI Design | Human-in-the-Loop Interaction | Enterprise AI Systems | Rapid Prototyping | Multi-Client Delivery</div>
+    <div class="title-line">Strategic Digital Experiences | UX | Team Leadership | Business Strategy</div>
     <div class="contact">
       <span style="color: #212121; font-weight:700">480-206-2145</span>
       <span>|</span>
@@ -359,7 +360,7 @@ export const resumeHTML = `<!DOCTYPE html>
       <span>|</span>
       <a href="https://www.linkedin.com/in/kenreigh/" target="_blank">LinkedIn</a>
       <span>|</span>
-      <a href="https://uxapex.com" target="_blank">Portfolio</a>
+      <a href="https://seekenreigh.figma.site/" target="_blank">Portfolio</a>
     </div>
   </header>
 
@@ -371,7 +372,7 @@ export const resumeHTML = `<!DOCTYPE html>
       <h2 class="section-title">Experience</h2>
 
       <div class="job">
-        <div class="job-title">Principal Product Designer — Agentic AI &amp; UX Systems</div>
+        <div class="job-title">Principal Product Designer</div>
         <a class="job-company" href="https://www.plexusworldwide.com" target="_blank">Plexus Worldwide</a>
         <div class="job-meta">
           <span class="material-symbols-outlined">calendar_month</span>
@@ -380,16 +381,16 @@ export const resumeHTML = `<!DOCTYPE html>
           Phoenix, AZ | Office
         </div>
         <ul>
-          <li>Designed and shipped a production LLM-powered AI Persona Agent — defined conversational flows, human-in-the-loop checkpoints, trust calibration states, and confidence signaling for 200K enterprise behavioral profiles; reversed –17% operating margin to +2% in four months</li>
-          <li>Led rapid prototyping across concurrent product engagements — high-fidelity testable Figma artifacts in compressed sprint cycles; facilitated usability testing with real users to validate agentic interaction decisions before engineering build</li>
-          <li>Introduced MCP server workflows and LLM-based design pipelines to active production practice; increased delivery velocity 35% across teams managing multiple simultaneous engagements</li>
-          <li>Architected reusable design system consolidating 6 tools into unified Figma component library — 60–90% org-wide adoption, $370K annual designer hours recovered</li>
-          <li>Translated NLP constraints and AI model capabilities into enterprise-ready interaction patterns; collaborated with data scientists and engineers to ground UX decisions in what the underlying models could reliably deliver</li>
+          <li>Led 5 UX/content designers for US/international e-commerce, launching 3 regions</li>
+          <li>Spearheaded e-commerce modernization with PMs, developers, BI: identified user behavior insights via Power BI; redesigned website, portals, mobile-first PDPs/PLPs, cart flows; cut checkout abandonment 43%</li>
+          <li>Facilitated customer, stakeholder, and collaborative team workshops for iterative features, A/B tested prototypes for complex product interfaces.</li>
+          <li>Consolidated 6 tools into unified app, cutting inefficiencies 60%; implemented branded design system for CMS consistency</li>
+          <li>Led adoption of LLM-driven tools and workflows, increasing sprint delivery velocity by 35% across teams.</li>
         </ul>
       </div>
 
       <div class="job">
-        <div class="job-title">Senior Product Designer — Regulated Enterprise Systems</div>
+        <div class="job-title">Senior Product Designer</div>
         <a class="job-company" href="https://www.freeportmcmoran.com" target="_blank">Freeport-McMoRan</a>
         <div class="job-meta">
           <span class="material-symbols-outlined">calendar_month</span>
@@ -398,15 +399,15 @@ export const resumeHTML = `<!DOCTYPE html>
           Phoenix, AZ | Hybrid
         </div>
         <ul>
-          <li>Designed enterprise UX for regulated industrial operations where accuracy and auditability were non-negotiable — delivered web and mobile interfaces improving worker efficiency 30% across complex multi-team workflows</li>
-          <li>Facilitated 10+ targeted discovery workshops to translate complex user needs and technical constraints into actionable interaction requirements across cross-functional teams</li>
-          <li>Built and deployed semantic token-based MUI React design system across web, iOS, and Android — reusable component architecture adopted by 5 engineering teams from zero shared foundation</li>
-          <li>Presented product roadmaps and design rationale to C-suite executives, securing approval for 5 major releases through clear research findings and interaction storytelling</li>
+          <li>Led end-to-end design for mining operation digital tools, improving worker efficiency by 30% through responsive web and mobile interfaces</li>
+          <li>Facilitated 10 workshops to define user needs, translating insights into actionable product requirements</li>
+          <li>Presented product roadmaps and Agile strategies to C-suite executives, securing approval for 5 major releases</li>
+          <li>Implemented a scalable UI design system, adopted across web, iOS, and Android platforms</li>
         </ul>
       </div>
 
       <div class="job">
-        <div class="job-title">Senior Product Designer — Multi-Client Enterprise UX</div>
+        <div class="job-title">Senior Product Designer</div>
         <a class="job-company" href="https://www.opentechalliance.com" target="_blank">OpenTech Alliance</a>
         <div class="job-meta">
           <span class="material-symbols-outlined">calendar_month</span>
@@ -415,14 +416,15 @@ export const resumeHTML = `<!DOCTYPE html>
           Phoenix, AZ | Hybrid
         </div>
         <ul>
-          <li>Delivered UX strategy and interaction design across multiple concurrent product engagements — white-label enterprise software deployed across varied industries, user maturities, and technology stacks</li>
-          <li>Redesigned conversational Point of Sale kiosk interface using interaction design best practices — boosted task completion 75% through reduced cognitive load and clearer decision flow architecture</li>
-          <li>Designed compliant enterprise data capture workflows meeting regulatory requirements — 100% legal risk elimination across user-facing flows</li>
+          <li>Increased UX adoption by delivering C-suite presentations, securing budget for 3 new UX initiatives</li>
+          <li>Redesigned Point of Sale kiosk UI, boosting completion rates by 75%</li>
+          <li>Designed compliant user data capture processes, reducing legal risks by 100%</li>
+          <li>Enhanced e-commerce fulfillment by 25% through data-driven UX optimizations</li>
         </ul>
       </div>
 
       <div class="job">
-        <div class="job-title">UX Design Lead — Industrial Enterprise Platforms</div>
+        <div class="job-title">UX Design Operator</div>
         <a class="job-company" href="https://www.siemens.com" target="_blank">Siemens</a>
         <div class="job-meta">
           <span class="material-symbols-outlined">calendar_month</span>
@@ -431,14 +433,15 @@ export const resumeHTML = `<!DOCTYPE html>
           Phoenix, AZ | Remote
         </div>
         <ul>
-          <li>Led design across 4 simultaneous product initiatives in a regulated industrial environment — adapting interaction approach to different teams, technical constraints, and user contexts concurrently</li>
-          <li>Produced design documentation reducing engineering handoff friction 50% — teams built independently without continuous designer involvement</li>
-          <li>Designed complex UI layouts for industrial applications integrating 3D and AutoCAD data — high-stakes enterprise interfaces where interaction error carries operational consequence</li>
+          <li>Led cross-departmental collaboration to unify design systems across 4 projects</li>
+          <li>Reduced internal data dissemination needs by 50% through custom documents</li>
+          <li>Managed project planning and budgeting, securing approval for 2 high-impact initiatives</li>
+          <li>Designed 3D and AutoCAD-integrated UI layouts for industrial applications</li>
         </ul>
       </div>
 
       <div class="job">
-        <div class="job-title">Senior UX Designer — HCI &amp; Usability Research</div>
+        <div class="job-title">Sr UX Designer</div>
         <a class="job-company" href="https://www.glynlyon.com" target="_blank">Glynlyon Inc</a>
         <div class="job-meta">
           <span class="material-symbols-outlined">calendar_month</span>
@@ -447,9 +450,10 @@ export const resumeHTML = `<!DOCTYPE html>
           Phoenix, AZ | Office
         </div>
         <ul>
-          <li>Applied Human-Computer Interaction research methods and inclusive design principles across multi-platform digital products — WCAG/ADA compliant across Android and iOS</li>
-          <li>Drove data-informed interaction decisions through targeted usability testing and user behavior analysis — roadmapped features that increased ease of use 65%</li>
-          <li>Facilitated cross-functional Design Thinking workshops to align product strategy, define user needs, and accelerate decision-making across engineering and product teams</li>
+          <li>Enhanced user experience through research and inclusive design that adhered to WCAG and ADA standards</li>
+          <li>Drove data-informed design decisions to roadmap UI features that increased ease of use by 65%</li>
+          <li>Mastered and communicated technical concepts to ensure feasible development on multiple platforms</li>
+          <li>Led cross-functional teams to define user needs through Design Thinking workshops</li>
         </ul>
       </div>
     </main>
@@ -459,58 +463,52 @@ export const resumeHTML = `<!DOCTYPE html>
 
       <div class="sidebar-section">
         <h2 class="section-title">Summary</h2>
-        <p class="summary-quote" style="color: #212121; font-weight:700">"Hands-on agentic UX practitioner — conversational interfaces, human-in-the-loop design, trust calibration, and rapid prototyping shipped in production. 12+ years designing complex enterprise systems across 5 industries. Drops into ambiguous, high-velocity engagements and delivers."</p>
+        <p class="summary-quote" style="color: #212121; font-weight:700">"Full-stack&nbsp; Designer—from strategy, research, interaction design to coded, responsive, high-fidelity prototypes—defining personas, journey maps, sitemaps, user flows that drive results in e-commerce, retail, and industrial applications."</p>
         <ul class="summary-bullets">
-          <li>LLM-powered AI agent shipped — 200K profiles, –17%→+2% margin impact</li>
-          <li>Conversational UI, dialog models, escalation flows, HITL checkpoints</li>
-          <li>MCP server workflows in active production use</li>
-          <li>Rapid prototyping — concept to testable artifact in days</li>
-          <li>Multi-client, multi-industry, multi-stack delivery experience</li>
-          <li>Design systems: 60–90% adoption, $370K labor recovered</li>
+          <li>11+ years in end-to-end delivery for ecommerce/retail</li>
+          <li>Translate research/analysis, journey mapping into service blueprints creating solutions for task completion, revenue growth, retention, engagement analytics, dashboards</li>
+          <li>Defining product vision with executive planning</li>
+          <li>AI for prototypes, high-fidelity mockups</li>
+          <li>User-centered designs</li>
+          <li>Data-driven designs, usability testing, A/B testing, inclusive design, AI/ML for personalized fashion/retail experiences</li>
         </ul>
       </div>
 
       <div class="sidebar-section">
         <h2 class="section-title">Key Achievements</h2>
         <ul class="dot-list">
-          <li>Agentic AI Platform — Shipped &amp; Measured ROI</li>
-          <li>HITL Interaction Design from First Principles</li>
-          <li>Reusable UX Pattern Library — Multi-Industry</li>
-          <li>Executive Design Rationale Presentations</li>
-          <li>Multi-Client Concurrent Engagement Delivery</li>
+          <li>Data Driven UX Roadmaps</li>
+          <li>Driving Executives Decisions</li>
+          <li>Cross-Functional Leadership</li>
+          <li>Design Tools Development</li>
+          <li>Design System Architect</li>
         </ul>
       </div>
 
       <div class="sidebar-section">
         <h2 class="section-title">Skills</h2>
         <div class="tag-list">
-          <span class="tag">Conversational UI</span>
-          <span class="tag">Agentic UX Patterns</span>
-          <span class="tag">HITL Design</span>
-          <span class="tag">Trust Calibration</span>
-          <span class="tag">Dialog Models</span>
-          <span class="tag">Rapid Prototyping</span>
+          <span class="tag">Agile</span>
+          <span class="tag">Design Architecture</span>
           <span class="tag">Figma</span>
-          <span class="tag">ProtoPie</span>
-          <span class="tag">Framer</span>
-          <span class="tag">Design Systems</span>
+          <span class="tag">e-Com Focus</span>
+          <span class="tag">Coded Prototypes</span>
+          <span class="tag">Design Tokens</span>
+          <span class="tag">Research</span>
+          <span class="tag">Analysis</span>
+          <span class="tag">Labor Management and Leadership</span>
           <span class="tag">MUI React</span>
-          <span class="tag">Usability Testing</span>
-          <span class="tag">Enterprise UX</span>
-          <span class="tag">Agile / Scrum</span>
+          <span class="tag">Google MD3</span>
         </div>
       </div>
 
       <div class="sidebar-section">
-        <h2 class="section-title">AI &amp; Technology</h2>
+        <h2 class="section-title">AI</h2>
         <div class="tag-list">
-          <span class="tag">LLM-Powered Interfaces</span>
+          <span class="tag">LLM-based</span>
           <span class="tag">Agentic AI</span>
-          <span class="tag">NLP Concepts</span>
-          <span class="tag">RAG Systems</span>
-          <span class="tag">MCP Servers</span>
+          <span class="tag">RAG systems</span>
           <span class="tag">Multimodal AI</span>
-          <span class="tag">HCI Research</span>
         </div>
       </div>
 
@@ -525,6 +523,8 @@ export const resumeHTML = `<!DOCTYPE html>
           Phoenix, AZ
         </div>
       </div>
+
+      <a class="share-link" href="#">Share Resume &gt;&gt;&gt;</a>
 
     </aside>
   </div><!-- /body -->

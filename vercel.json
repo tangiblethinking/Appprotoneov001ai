@@ -1,4 +1,7 @@
 {
+  "rewrites": [
+    { "source": "/portfolioa32/(.*)", "destination": "/index.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
